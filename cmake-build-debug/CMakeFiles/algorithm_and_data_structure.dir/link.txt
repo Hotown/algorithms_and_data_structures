@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -Wall -std=c++11 -g -pedantic -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/algorithm_and_data_structure.dir/main.cpp.o  -o algorithm_and_data_structure 

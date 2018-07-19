@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/stack.h
+
+/Users/hotown/Workspace/algorithm_and_data_structure/stack/sq_stack_main.cpp
+stack.h
+-
+

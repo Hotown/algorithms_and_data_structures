@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -Wall -std=c++11 -g -pedantic -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/a1015.dir/pat_code/advanced_level/a1015.cpp.o  -o a1015 

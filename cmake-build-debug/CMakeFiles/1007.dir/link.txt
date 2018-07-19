@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -Wall -std=c++11 -g -pedantic -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/1007.dir/pat_code/basic_level/1007.cpp.o  -o 1007 
