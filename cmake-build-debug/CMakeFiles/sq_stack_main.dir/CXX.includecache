@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
+../include/common_header.h
+
 ../include/stack.h
+common_header.h
+-
+cstdlib
+-
 
 /Users/hotown/Workspace/algorithm_and_data_structure/stack/sq_stack_main.cpp
 stack.h
+-
+cstdio
 -
 
