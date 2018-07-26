@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hotown/Workspace/algorithm_and_data_structure/pat_code/advanced_level/a1014.cpp
+cstdio
+-
+queue
+-
+vector
+-
+
