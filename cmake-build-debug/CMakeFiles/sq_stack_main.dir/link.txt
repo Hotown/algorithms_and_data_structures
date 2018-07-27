@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -Wall -std=c++11 -g -pedantic -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/sq_stack_main.dir/stack/sq_stack_main.cpp.o  -o sq_stack_main 
