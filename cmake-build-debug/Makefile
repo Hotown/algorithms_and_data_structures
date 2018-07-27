@@ -358,19 +358,6 @@ a1005/fast:
 .PHONY : 1007/fast
 
 #=============================================================================
-# Target rules for targets named 1001
-
-# Build rule for target.
-1001: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1001
-.PHONY : 1001
-
-# fast build rule for target.
-1001/fast:
-	$(MAKE) -f CMakeFiles/1001.dir/build.make CMakeFiles/1001.dir/build
-.PHONY : 1001/fast
-
-#=============================================================================
 # Target rules for targets named a1010
 
 # Build rule for target.
@@ -397,30 +384,17 @@ a1010/fast:
 .PHONY : 1006/fast
 
 #=============================================================================
-# Target rules for targets named a1001
+# Target rules for targets named 1001
 
 # Build rule for target.
-a1001: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 a1001
-.PHONY : a1001
+1001: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1001
+.PHONY : 1001
 
 # fast build rule for target.
-a1001/fast:
-	$(MAKE) -f CMakeFiles/a1001.dir/build.make CMakeFiles/a1001.dir/build
-.PHONY : a1001/fast
-
-#=============================================================================
-# Target rules for targets named a1016
-
-# Build rule for target.
-a1016: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 a1016
-.PHONY : a1016
-
-# fast build rule for target.
-a1016/fast:
-	$(MAKE) -f CMakeFiles/a1016.dir/build.make CMakeFiles/a1016.dir/build
-.PHONY : a1016/fast
+1001/fast:
+	$(MAKE) -f CMakeFiles/1001.dir/build.make CMakeFiles/1001.dir/build
+.PHONY : 1001/fast
 
 #=============================================================================
 # Target rules for targets named a1002
@@ -460,6 +434,45 @@ a1017: cmake_check_build_system
 a1017/fast:
 	$(MAKE) -f CMakeFiles/a1017.dir/build.make CMakeFiles/a1017.dir/build
 .PHONY : a1017/fast
+
+#=============================================================================
+# Target rules for targets named a1019
+
+# Build rule for target.
+a1019: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 a1019
+.PHONY : a1019
+
+# fast build rule for target.
+a1019/fast:
+	$(MAKE) -f CMakeFiles/a1019.dir/build.make CMakeFiles/a1019.dir/build
+.PHONY : a1019/fast
+
+#=============================================================================
+# Target rules for targets named a1001
+
+# Build rule for target.
+a1001: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 a1001
+.PHONY : a1001
+
+# fast build rule for target.
+a1001/fast:
+	$(MAKE) -f CMakeFiles/a1001.dir/build.make CMakeFiles/a1001.dir/build
+.PHONY : a1001/fast
+
+#=============================================================================
+# Target rules for targets named a1016
+
+# Build rule for target.
+a1016: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 a1016
+.PHONY : a1016
+
+# fast build rule for target.
+a1016/fast:
+	$(MAKE) -f CMakeFiles/a1016.dir/build.make CMakeFiles/a1016.dir/build
+.PHONY : a1016/fast
 
 #=============================================================================
 # Target rules for targets named a1015
@@ -1179,6 +1192,33 @@ pat_code/advanced_level/a1017.s: pat_code/advanced_level/a1017.cpp.s
 pat_code/advanced_level/a1017.cpp.s:
 	$(MAKE) -f CMakeFiles/a1017.dir/build.make CMakeFiles/a1017.dir/pat_code/advanced_level/a1017.cpp.s
 .PHONY : pat_code/advanced_level/a1017.cpp.s
+
+pat_code/advanced_level/a1019.o: pat_code/advanced_level/a1019.cpp.o
+
+.PHONY : pat_code/advanced_level/a1019.o
+
+# target to build an object file
+pat_code/advanced_level/a1019.cpp.o:
+	$(MAKE) -f CMakeFiles/a1019.dir/build.make CMakeFiles/a1019.dir/pat_code/advanced_level/a1019.cpp.o
+.PHONY : pat_code/advanced_level/a1019.cpp.o
+
+pat_code/advanced_level/a1019.i: pat_code/advanced_level/a1019.cpp.i
+
+.PHONY : pat_code/advanced_level/a1019.i
+
+# target to preprocess a source file
+pat_code/advanced_level/a1019.cpp.i:
+	$(MAKE) -f CMakeFiles/a1019.dir/build.make CMakeFiles/a1019.dir/pat_code/advanced_level/a1019.cpp.i
+.PHONY : pat_code/advanced_level/a1019.cpp.i
+
+pat_code/advanced_level/a1019.s: pat_code/advanced_level/a1019.cpp.s
+
+.PHONY : pat_code/advanced_level/a1019.s
+
+# target to generate assembly for a file
+pat_code/advanced_level/a1019.cpp.s:
+	$(MAKE) -f CMakeFiles/a1019.dir/build.make CMakeFiles/a1019.dir/pat_code/advanced_level/a1019.cpp.s
+.PHONY : pat_code/advanced_level/a1019.cpp.s
 
 pat_code/basic_level/1001.o: pat_code/basic_level/1001.cpp.o
 
@@ -2016,15 +2056,16 @@ help:
 	@echo "... 1026"
 	@echo "... 1025"
 	@echo "... 1007"
-	@echo "... 1001"
 	@echo "... a1010"
 	@echo "... 1006"
-	@echo "... edit_cache"
-	@echo "... a1001"
-	@echo "... a1016"
+	@echo "... 1001"
 	@echo "... a1002"
 	@echo "... a1009"
 	@echo "... a1017"
+	@echo "... a1019"
+	@echo "... edit_cache"
+	@echo "... a1001"
+	@echo "... a1016"
 	@echo "... a1015"
 	@echo "... a1003"
 	@echo "... a1004"
@@ -2096,6 +2137,9 @@ help:
 	@echo "... pat_code/advanced_level/a1017.o"
 	@echo "... pat_code/advanced_level/a1017.i"
 	@echo "... pat_code/advanced_level/a1017.s"
+	@echo "... pat_code/advanced_level/a1019.o"
+	@echo "... pat_code/advanced_level/a1019.i"
+	@echo "... pat_code/advanced_level/a1019.s"
 	@echo "... pat_code/basic_level/1001.o"
 	@echo "... pat_code/basic_level/1001.i"
 	@echo "... pat_code/basic_level/1001.s"

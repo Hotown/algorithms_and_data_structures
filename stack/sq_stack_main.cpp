@@ -11,7 +11,6 @@ void conversion(int n) {
     while(n) {
         push(s, n % 8);
         n /= 8;
-        n = n;
     }
 
     while(!stackEmpty(s)) {

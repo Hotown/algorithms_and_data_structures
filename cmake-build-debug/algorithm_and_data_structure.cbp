@@ -939,54 +939,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="1001">
-				<Option output="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/1001" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/include"/>
-					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 1001"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="1001/fast">
-				<Option output="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/1001" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/include"/>
-					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 1001/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="a1010">
 				<Option output="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/a1010" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug"/>
@@ -1083,18 +1035,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="a1001">
-				<Option output="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/a1001" prefix_auto="0" extension_auto="0"/>
+			<Target title="1001">
+				<Option output="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/1001" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -1111,14 +1053,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 a1001"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 1001"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="a1001/fast">
-				<Option output="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/a1001" prefix_auto="0" extension_auto="0"/>
+			<Target title="1001/fast">
+				<Option output="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/1001" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -1135,55 +1077,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 a1001/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="a1016">
-				<Option output="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/a1016" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/include"/>
-					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 a1016"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="a1016/fast">
-				<Option output="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/a1016" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/include"/>
-					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 a1016/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 1001/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1328,6 +1222,160 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 a1017/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a1019">
+				<Option output="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/a1019" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/include"/>
+					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 a1019"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a1019/fast">
+				<Option output="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/a1019" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/include"/>
+					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 a1019/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a1001">
+				<Option output="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/a1001" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/include"/>
+					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 a1001"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a1001/fast">
+				<Option output="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/a1001" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/include"/>
+					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 a1001/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a1016">
+				<Option output="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/a1016" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/include"/>
+					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 a1016"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a1016/fast">
+				<Option output="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/a1016" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/include"/>
+					<Add directory="/Users/hotown/Workspace/algorithm_and_data_structure/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 a1016/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hotown/Workspace/algorithm_and_data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -2344,6 +2392,9 @@
 		</Unit>
 		<Unit filename="/Users/hotown/Workspace/algorithm_and_data_structure/pat_code/advanced_level/a1017.cpp">
 			<Option target="a1017"/>
+		</Unit>
+		<Unit filename="/Users/hotown/Workspace/algorithm_and_data_structure/pat_code/advanced_level/a1019.cpp">
+			<Option target="a1019"/>
 		</Unit>
 		<Unit filename="/Users/hotown/Workspace/algorithm_and_data_structure/pat_code/basic_level/1001.cpp">
 			<Option target="1001"/>
